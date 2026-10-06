@@ -129,7 +129,7 @@ individual transform properties) and degrades gracefully where a feature is unav
 
 - Email: [byteforgestudio.pk@gmail.com](mailto:byteforgestudio.pk@gmail.com)
 - GitHub: [github.com/byteforge-affan](https://github.com/byteforge-affan)
-- LinkedIn: [linkedin.com/in/muhammad-affan](https://www.linkedin.com/in/muhammad-affan)
+- LinkedIn: [linkedin.com/in/muhammad-affan-27b96943b](https://www.linkedin.com/in/muhammad-affan-27b96943b)
 - Website: [byteforge-affan-portfolio.netlify.app](https://byteforge-affan-portfolio.netlify.app/)
 
 ---
