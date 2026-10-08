@@ -56,11 +56,11 @@ runtime dependencies.
 
 | Project | Description | Links |
 | --- | --- | --- |
-| **Z&S Enterprises** | Corporate website for a packaging and printing company (HTML, CSS, JavaScript, responsive) | [Live](https://zandsenterprises.com/) / [Code](https://github.com/byteforge-affan/ZandS_Enterprises) |
-| **Paarees Luxury Scents** | Luxury fragrance brand website (HTML, CSS, Bootstrap) | [Live](https://paarees-luxury-scents.netlify.app/) / [Code](https://github.com/byteforge-affan/E-PROJECT-PAAREES-PERFUME-) |
-| **Jobix** | Role-based recruitment platform (PHP, MySQL, Bootstrap) | [Code](https://github.com/byteforge-affan/Jobix) |
+| **Z&S Enterprises** | Corporate website for a packaging and printing company (HTML, CSS, JavaScript, responsive) | [Live](https://zandsenterprises.com/) / [Code](https://github.com/byteforge-affan/zs-enterprises) |
+| **Paarees Luxury Scents** | Luxury fragrance brand website (HTML, CSS, Bootstrap) | [Live](https://paarees-luxury-scents.netlify.app/) / [Code](https://github.com/byteforge-affan/paarees-luxury-scents) |
+| **Jobix** | Role-based recruitment platform (PHP, MySQL, Bootstrap) | [Code](https://github.com/byteforge-affan/jobix) |
 | **Aurora** | Creative static website exploring atmosphere and visual rhythm | [Live](https://aurorasphere.netlify.app/) |
-| **Shopping Website** | Database-driven shopping website with a cart-style interface | [Code](https://github.com/byteforge-affan/Shopping-Website) |
+| **Shopping Website** | Database-driven shopping website with a cart-style interface | [Code](https://github.com/byteforge-affan/arts-store) |
 
 ## Services
 
