@@ -40,16 +40,15 @@ runtime dependencies.
 
 ## Features
 
-- **Fully responsive** from small phones to large desktop screens. Layouts reflow rather than shrink, and the
+- **Responsive layouts** designed for small phones through large desktop screens. Layouts reflow rather than shrink, and the
   project mockups and skill map scale as one piece using container query units.
 - **Considered motion.** Different content enters in different ways (line wipes, scale-ins, side slides, staggers).
   Hover states react to the cursor on desktop and are skipped on touch devices.
 - **Reduced motion supported.** With `prefers-reduced-motion`, animations stop, content appears immediately, and
   the typing effect and skill-map cycling are turned off.
 - **Works without JavaScript.** All content is visible and readable if scripts fail to load.
-- **Accessible.** Visible keyboard focus, skip link, descriptive link and button names, alt text, and text
-  contrast. The skill map is paired with a full written list.
-- **Fast.** Static files, no dependencies, and no layout-shifting assets.
+- **Accessibility considerations.** The source includes visible keyboard focus styles, a skip link, labelled controls, alt text, and a written alternative to the skill map. Full accessibility conformance has not been independently audited.
+- **Lightweight static approach.** The site uses local HTML, CSS and JavaScript without a build step. Performance and layout stability have not been independently benchmarked.
 - **Share-ready.** Page title, description, canonical link, and Open Graph tags are set.
 
 ## Projects featured
@@ -60,7 +59,7 @@ runtime dependencies.
 | **Paarees Luxury Scents** | Luxury fragrance brand website (HTML, CSS, Bootstrap) | [Live](https://paarees-luxury-scents.netlify.app/) / [Code](https://github.com/byteforge-affan/paarees-luxury-scents) |
 | **Jobix** | Role-based recruitment platform (PHP, MySQL, Bootstrap) | [Code](https://github.com/byteforge-affan/jobix) |
 | **Aurora** | Creative static website exploring atmosphere and visual rhythm | [Live](https://aurorasphere.netlify.app/) |
-| **Shopping Website** | Database-driven shopping website with a cart-style interface | [Code](https://github.com/byteforge-affan/arts-store) |
+| **Arts Store** | Academic database-driven shopping website with a cart-style interface | [Code](https://github.com/byteforge-affan/arts-store) |
 
 ## Services
 
@@ -110,18 +109,14 @@ repository root with no build command and `.` as the publish directory.
 - **Colours, spacing, and radii** live in the `:root` block at the top of `style.css`.
 - **Contact details** (email, GitHub, LinkedIn) are in the Contact section of `index.html`. The email also appears in
   the navbar button and the hero.
-- **Project text and links** are in the Projects section of `index.html`. Each project mockup is built from HTML and
-  CSS, so no screenshots are required.
-- **Real screenshot (optional).** To show a real Paarees screenshot instead of its built mockup, add it as
-  `images/web-image.PNG`. The page uses it automatically when the file exists and falls back to the mockup when it
-  does not.
+- **Project text and links** are in the Projects section of `index.html`. The portfolio uses custom HTML/CSS visual mockups to present projects; these are designed illustrations, not evidence of actual application screens.
+- **Real screenshot (optional).** The JavaScript includes a screenshot-loading/fallback mechanism for project visuals. The documented optional Paarees asset path is `images/web-image.PNG`; confirm the corresponding current markup and image before relying on this behavior. If unavailable, the built HTML/CSS mockup remains the intended presentation.
 - **Skill map.** Tools are placed by coordinates (`--x`, `--y`) on the `.node` elements in the Stack section. If you
   add a tool, add a matching entry to the written list beside it.
 
 ## Browser support
 
-Current versions of Chrome, Edge, Firefox, and Safari. The design uses modern CSS (container queries, `color-mix()`,
-individual transform properties) and degrades gracefully where a feature is unavailable.
+Designed for current versions of Chrome, Edge, Firefox, and Safari. The site uses modern CSS (container queries, `color-mix()`, individual transform properties) with fallback considerations; comprehensive cross-browser testing has not been independently documented.
 
 ## Contact
 
